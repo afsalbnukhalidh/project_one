@@ -1,0 +1,164 @@
+body {
+  width: 100%;
+}
+header {
+  background-image: url(assets/dist/img/header.jpg);
+  background-size: cover;
+  padding: 240px 10%;
+}
+.header-content {
+  color: white;
+}
+.header-content h6 {
+  margin-top: 70px;
+}
+.sub-header {
+  display: block;
+  position: absolute;
+  left: 10%;
+  top: 80%;
+  width: 90%;
+}
+.sub-header .sh-content {
+  display: inline-block;
+  width: calc(100%/3);
+  margin-right: -5px;
+  padding: 0;
+  color: #fff;
+}
+.sh-content img {
+  width: 100%;
+  height: 400px;
+}
+.sh-content h3, .sh-content p, .sh-content hr, .sh-content a {
+  position: absolute;
+  padding: 40px;
+}
+.sh-content h3.top {
+  top: 0;
+}
+.sh-content p.top {
+  top: 10%;
+}
+.sh-content hr.top {
+  top: 28%;
+  margin-left: 40px;
+  opacity: 1;
+  border-top: 2px solid;
+}
+.sh-content a.bottom {
+  bottom: 2%;
+  left: 0;
+  text-decoration:underline;
+  color: #fff;
+}
+.column-content {
+  position: relative;
+  width: 100%;
+  padding: 400px 10% 0;
+
+}
+.column-one {
+  background-image: url(assets/dist/img6.webp);
+  background-size: cover;
+  height: 400px;
+}
+.column-two {
+  height: 400px;
+  padding: 70px;
+}
+.column-two :nth-child(5) {
+  text-align-last: justify;
+}
+.disbut {
+  background-color: black;
+  color: #fff;
+  width: 50%;
+}
+.disbut:hover {
+  background-color: rgb(14, 212, 73);
+  border:none;
+}
+.lin-content {
+  text-decoration: none;
+  color: white;
+}
+
+.places-section {
+  background-color: rgb(243, 236, 239);
+  width: 100%;
+  position: relative;
+  padding: 10%;
+}
+
+.places-column-1 {
+  background-color: rgb(211, 200, 187); 
+  padding: 50px;
+}
+.places-column-2 {
+  background-color: rgb(154, 156, 156);
+}
+.places-column-2 button {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  height: 120px;
+}
+.places-column-2 button:hover {
+  background-color: #333;
+}
+.pad-mon {
+  padding: calc(100%/25) calc(100%/25);
+}
+.oslocod {
+  margin: 50px 0;
+}
+.side-flot {
+  text-align: right;
+  padding: none;
+  margin-top: 30px;
+}
+.side-flot-one {
+  text-align: right;
+  padding: none;
+}
+.image-lining {
+  background-size: cover;
+}
+.image-lining img {
+  width: 100%;
+  height: 300px;
+}
+.pn-content {
+  padding-right: 0%!important;
+  padding-left: 0%!important;
+}
+.side-mod {
+  text-decoration: none;
+  color: black;
+  float: right;
+  margin-top: 25px;
+}
+.tb-content {
+  width: 100%;
+  margin-top: 200px;
+  color: black;
+}
+.word-content {
+  text-decoration: none;
+  color: black;
+}
+.logo-content {
+  display: inline-block;
+  width: 20px 20px;
+  margin-left: 20px;
+  border: none;
+}
+.logo-content img{
+  width: 100%;
+  height: 20px;
+}
+.foot-content {
+  margin-left: 10%;
+  background-color: transparent;
+}
