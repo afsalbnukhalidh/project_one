@@ -14,28 +14,26 @@ header {
 }
 .sub-header {
   display: block;
-  position: absolute;
-  left: 10%;
-  top: 80%;
-  width: 90%;
+  position: relative;
+  width: 100%;
 }
 .sub-header .sh-content {
   display: inline-block;
-  width: calc(100%/3);
+  width: 100%;
   margin-right: -5px;
   padding: 0;
   color: #fff;
 }
 .sh-content img {
   width: 100%;
-  height: 400px;
+  height: 300px;
 }
 .sh-content h3, .sh-content p, .sh-content hr, .sh-content a {
   position: absolute;
   padding: 40px;
 }
 .sh-content h3.top {
-  top: 0;
+  margin-top: -400px;
 }
 .sh-content p.top {
   top: 10%;
@@ -47,38 +45,72 @@ header {
   border-top: 2px solid;
 }
 .sh-content a.bottom {
+  cursor:default;
   bottom: 2%;
   left: 0;
-<<<<<<< HEAD
-  text-decoration: none;
-=======
   text-decoration:underline;
->>>>>>> origin/afsal-lap
   color: #fff;
+}
+@media only screen and (max-width: 600px) {
+  .sh-content {
+
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .sh-content {
+
+  } 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .sub-header {
+    position: absolute;
+    top: 80%;
+  }
+  .sub-header .sh-content {
+    width: calc(100%/3);
+  }
+  .sh-content img {
+
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .sub-header {
+    width: 90%;
+    left: 10%;
+  }
+  .sh-content img {
+    height: 400px;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .sh-content {
+
+  }
 }
 .column-content {
   position: relative;
   width: 100%;
   padding: 400px 10% 0;
-
 }
 .column-one {
-<<<<<<< HEAD
-  background-image: url(assets/dist/img6.webp);
-=======
   background-image: url(assets/dist/img/img6.webp);
->>>>>>> origin/afsal-lap
   background-size: cover;
-  height: 400px;
+  height: 600px;
 }
 .column-two {
-  height: 400px;
-  padding: 70px;
-}
-.column-two :nth-child(5) {
-  text-align-last: justify;
+  height: 600px;
+  padding: 60px;
 }
 .disbut {
+  margin-top: 30px;
   background-color: black;
   color: #fff;
   width: 50%;
@@ -115,9 +147,6 @@ header {
 .places-column-2 button:hover {
   background-color: #333;
 }
-.pad-mon {
-  padding: calc(100%/25) calc(100%/25);
-}
 .oslocod {
   margin: 50px 0;
 }
@@ -147,20 +176,17 @@ header {
   float: right;
   margin-top: 25px;
 }
-.tb-content {
+.tb-content{
   width: 100%;
-  margin-top: 200px;
-  color: black;
-}
-.word-content {
-  text-decoration: none;
-  color: black;
+  position: relative;
+  margin-top: 50px;
 }
 .logo-content {
   display: inline-block;
   width: 20px 20px;
   margin-left: 20px;
   border: none;
+  background-color: transparent;
 }
 .logo-content img{
   width: 100%;
